@@ -58,7 +58,6 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
@@ -66,4 +65,19 @@ a {
   color: #10045f; /* Color del enlace */
   text-decoration: none; /* Quitar subrayado */
   font-size: 18px; /* Tamaño de fuente */
+}
+img {
+  width: 100%;
+  max-width: 300px; /* o el tamaño que desees */
+  height: auto;
+  border: 2px solid #ccc;
+  display: block;
+}
+form label,
+form input,
+form textarea,
+form button {
+  display: block; /* Hace que los elementos sean bloques y estén uno debajo del otro */
+  margin-top: 10px; /* Añade espacio entre los elementos */
+  width: 100%; /* O puedes usar un ancho fijo según tu diseño */
 }
